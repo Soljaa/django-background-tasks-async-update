@@ -9,7 +9,7 @@ with open("README.rst", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='django-background-tasks',
+    name='django-background-tasks-async-update',
     version=version,
     description='Database backed asynchronous task queue',
     long_description=long_description,

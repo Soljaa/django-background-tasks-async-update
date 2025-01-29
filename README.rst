@@ -1,6 +1,6 @@
-=======================
-Django Background Tasks
-=======================
+======================================
+Django Background Tasks (Async Update)
+======================================
 
 .. image:: https://travis-ci.org/arteria/django-background-tasks.svg?branch=master
     :target: https://travis-ci.org/arteria/django-background-tasks
@@ -15,12 +15,12 @@ Django Background Tasks
     :target: https://pypi.python.org/pypi/django-background-tasks
     :alt: PyPI
 
-Django Background Task is a database-backed work queue for Django, loosely based around `Ruby's DelayedJob`_ library. This project was adopted and adapted from lilspikey_ `django-background-task`.
+Django Background Task is a database-backed work queue for Django, loosely based around `Ruby's DelayedJob`_ library. This project was adopted and adapted from lilspikey_ `django-background-task` and updated to fix thread concurrency. 
 
 .. _Ruby's DelayedJob: https://github.com/tobi/delayed_job
 .. _lilspikey: https://github.com/lilspikey/
 
-To avoid conflicts on PyPI we renamed it to django-background-tasks (plural). For an easy upgrade from django-background-task to django-background-tasks, the internal module structure were left untouched.
+You can find in PyPI as django-background-tasks-async-update.
 
 In Django Background Task, all tasks are implemented as functions (or any other callable).
 
